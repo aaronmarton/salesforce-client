@@ -1,13 +1,13 @@
 {
-  "name": "aracoool/salesforce-client",
+  "name": "webgurus/salesforce-client",
   "type": "library",
   "description": "SalesForce REST api client",
   "keywords": ["salesforce", "http", "rest", "web service", "curl", "client", "api"],
   "license": "MIT",
   "authors": [
     {
-      "name": "Askar Fuzaylov",
-      "email": "tkdforever@gmail.com"
+      "name": "Aaron Marton",
+      "email": "aaron@webgurus.biz"
     }
   ],
   "require": {
