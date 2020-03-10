@@ -72,7 +72,7 @@ class Builder
         foreach ($where as $key => $val) {
             if (is_int($key)) {
                 $where[$key] = $val;
-            } elseif (is_string($val) && !strtotime($val)) {
+            } elseif (is_string($val) && strtotime($val) < 1) {
                 $where[$key] = "$key='$val'";
             } elseif (is_bool($val)) {
                 $where[$key] = $key . '=' . ($val ? 'TRUE' : 'FALSE');
