@@ -7,7 +7,7 @@ This component is based on documentation available [here](https://resources.docs
 ## Installation
 
 ```bash
-composer require "aracoool/salesforce-client:^1.0"
+composer require "webgurus/salesforce-client:^1.0"
 ```
 
 ## Usage
